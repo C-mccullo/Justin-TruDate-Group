@@ -1,0 +1,27 @@
+
+.landingPage {
+	align-items: center;
+	h1 {
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+.imageWrapper {
+	min-width: 100px;
+	width: 70vw;
+	max-width: 400px;
+	img {
+		width: 100%;
+		padding-bottom: 20px;
+		transform: rotate(-5deg);
+	}
+}
+
+footer p {
+	font-family: $Roboto;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	text-align: center;
+}

@@ -1,0 +1,105 @@
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/global";
+@import "partials/results";
+@import "partials/landingPage";
+@import "partials/buttons";
+@import "partials/mainQuiz";
+
+
+// Landing Page
+
+@media (max-width: 650px) {
+	body {
+		padding: 15px;
+	}
+	p {
+		font-size: 15px;
+		font-size: 1.5rem;
+		letter-spacing: 1.2px;
+	}
+	section {
+		padding: 5%;
+	}
+	section.form-container form {
+		width: 90%;
+		padding-top: 40px;
+	}
+
+	.landingPage h1 {
+		font-size: 7rem;
+	}
+	.main-quiz header h1 {
+		font-size: 6rem;
+	}
+	section.form-container .question-container {
+		padding-bottom: 15px;
+		h3 {
+		font-size: 5rem;
+		}
+	}
+	section.form-container .question-container p {
+		font-size: 2.5rem;
+	}
+	section.form-container .question-container label p {
+		font-size: 2rem;
+	}
+	button, .submitButton {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 450px) {
+	.landingPage h1 {
+		font-size: 50px;
+		font-size: 5rem;
+	}
+	
+	.landingPage h2 {
+		font-size: 25px;
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 375px) {
+	body {
+		padding: 20px;
+	}
+	p {
+		font-size: 12px;
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+	}
+
+	.landingPage h1 {
+		font-size: 40px;
+		font-size: 4rem;
+
+	}
+	button, .submitButton {
+		font-size: 25px;
+		font-size: 2.5rem;
+	}
+	.submitButton {
+		padding: 20px 10px;
+		word-spacing: 1.2px;
+	}
+	section.form-container .question-container {
+		padding-bottom: 15px;
+		h3 {
+		font-size: 5rem;
+		}
+	}
+	section.form-container .question-container p {
+		font-size: 2.5rem;
+	}
+	section.form-container .question-container label p {
+		font-size: 15px;
+		font-size: 1.5rem;
+	}
+	.resultImageWrapper {
+		width: 100%;
+	}
+}
+
+

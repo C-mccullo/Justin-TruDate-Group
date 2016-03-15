@@ -1,0 +1,26 @@
+button, .submitButton {
+	padding: 20px;
+	width: 70%;
+	margin: auto;
+	-webkit-appearance: none;
+	border-radius: 10px;
+	border: none;
+	background: $green;
+	color: $white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 5rem;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	outline: none;
+}
+
+.submitButton {
+	width: 100%;
+}
+
+button.reset {
+	width: 100%;
+	
+}
+

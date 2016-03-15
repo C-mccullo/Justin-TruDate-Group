@@ -1,0 +1,75 @@
+html {
+	font-size: 62.5%;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	flex: row wrap;
+}
+
+input[type=radio] {
+	display: none; // Hides radio buttons
+}
+
+
+body {
+	background: $pink;
+	padding: 2rem 5rem;
+}
+
+section {
+	background: $white;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	color: $red;
+	font-size: 10rem;
+}
+
+h2 {
+	text-align: center;
+	font-family: $Yanone;
+	font-size: 3.5rem;
+	color: $darkGrey;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	word-spacing: 5px;
+}
+
+
+h3, p {
+	font-family: 'Roboto', sans-serif;
+	color: $darkGrey;
+	font-size: 20px;
+	font-size: 2rem;
+	letter-spacing: 1.5px;
+}
+
+a {
+	text-decoration: none;
+	color: $darkGrey;
+	&:hover {
+		color: $red;
+	}
+}
+
+

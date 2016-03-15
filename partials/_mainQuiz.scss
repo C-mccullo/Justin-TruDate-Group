@@ -1,0 +1,86 @@
+header {
+	h1 {
+		font-size: 7rem;
+		padding-top: 0;
+		margin: 0;
+	}
+	.imageWrapper {
+		width: 40vw;
+		max-width: 275px;
+		position: relative;
+		top: 28px;
+		left: 40px;
+		transform: rotate(-5deg);
+		padding: 0;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+label p {
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid $red;
+	width: 80%;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+:checked + label p {
+	background: $red;
+	color: white;
+
+}
+// general section padding for landing page and quiz
+
+section {
+	padding: 45px;
+}
+
+section.form-container {
+	width: 100%;
+	margin: auto;
+	.question-container {
+		margin: 0 auto;
+		width: 100%;
+		padding-bottom: 30px;
+		h3 {
+			font-size: 60px;
+			font-size: 6.0rem;
+			margin: 0;
+			text-align: center;
+			font-family: $Yanone;
+			text-transform: uppercase;
+			color: $red;
+			letter-spacing: 5px;
+		}
+	}
+}
+
+form {
+		margin: 0 auto;
+		width: 70%;
+}
+
+
+div.inputWrapper {
+	margin: 0 auto;
+	p {
+		font-size: 34px;
+		font-size: 3.4rem;
+	}
+	label {
+		p {
+		padding: 15px 20px;
+		width: 100%;
+		font-size: 20px;
+		font-size: 2rem;
+		}	
+	}
+}
+
+#evilJustin {
+	width: 30%;
+}

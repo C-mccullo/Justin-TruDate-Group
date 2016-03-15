@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>J-Date</title>
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<section class="landingPage flex-column">
+	<h1>Who's Your Dream Justin Trudeau?</h1>
+	<h2>"A match made in Parliament!"</h2>
+	<div class="imageWrapper">
+		<img src="images/justinlanding.png" alt="Cartoon Justin Trudeau lounging sexily">
+	</div>
+	<button class="startQuiz">Start Quiz!</button>
+</section>
+
+<main class="main-quiz">
+	<header>
+		<div class="imageWrapper">
+			<img src="images/justinlanding.png" alt="Cartoon Justin Trudeau lounging sexily">
+		</div>
+		<h1>Who's Your Dream Justin Trudeau?</h1>
+		<h2>"A match made in Parliament!"</h2>
+	</header>
+
+	
+	<section class="form-container flex-column">
+		<form name="quiz">
+			<!-- Question 1 -->
+			<div class="question-container question-container1 show">
+				<h3>Question One</h3>
+					
+				<div class="inputWrapper">
+					<p>How invested in politics are you?</p>
+
+					<input type="radio" name="q1" id="q1-justin2" value="justin2">
+					<label for="q1-justin2">
+						<p>I’m only interested when politicians embarrass themselves and it ends up on Facebook.</p>
+					</label>
+				
+					<input type="radio" name="q1" id="q1-justin5" value="justin5">
+					<label for="q1-justin5">
+						<p>I try, but I find politics a bit boring.</p>
+					</label>
+					
+					<input type="radio" name="q1" class="radio-button" id="q1-justin1" value="justin1">
+					<label for="q1-justin1">
+						<p>I follow the issues that relate to me.</p>
+					</label>
+
+					<input type="radio" name="q1" id="q1-justin4" value="justin4">
+					<label for="q1-justin4">
+						<p>I’m heavily involved.</p>
+					</label>
+
+					<input type="radio" name="q1" id="q1-justin3" value="justin3">
+					<label for="q1-justin3">
+						<p>Down with the established order!</p>
+					</label>
+				</div>
+
+				<!-- <button class="next">Next question</button> -->
+			</div> 
+			<!-- End question 1 -->
+
+			<!-- Question 2 -->
+			<div class="question-container question-container2">
+				<h3>Question Two</h3>
+				
+				<div class="inputWrapper">
+					<p>What's your idea of the perfect date?</p>
+
+					<input type="radio" name="q2" id="q2-justin4" value="justin4">
+					<label for="q2-justin4">
+						<p>An expensive dinner at the hottest new place in town.</p>
+					</label>
+
+					<input type="radio" name="q2" id="q2-justin3" value="justin3">
+					<label for="q2-justin3">
+						<p>A crazy night on the town, and see where we end up - likely in the back of a police cruiser.</p>
+					</label>
+
+					<input type="radio" name="q2" id="q2-justin1" value="justin1">
+					<label for="q2-justin1">
+						<p>Checking out a local band.</p>
+					</label>
+
+					<input type="radio" name="q2" id="q2-justin2" value="justin2">
+					<label for="q2-justin2">
+						<p>Wings, beer, and hockey!</p>
+					</label>
+
+
+					<input type="radio" name="q2" id="q2-justin5" value="justin5">
+					<label for="q2-justin5">
+						<p>Going ice skating on the Rideau Canal and grabbing a Beavertail.</p>
+					</label>
+				</div>
+
+				<!-- <button class="next">Next question</button> -->
+			</div> 
+			<!-- End question 2 -->
+			
+			<!-- Question 3 -->
+			<div class="question-container question-container3">
+				<h3>Question Three</h3>
+				
+				<div class="inputWrapper">
+					<p>What's the number one quality you look for in a partner?</p>
+
+					<input type="radio" name="q3" id="q3-justin3" value="justin3">
+					<label for="q3-justin3">
+						<p>Spontaneity and a sense of adventure.</p>
+					</label>
+
+					<input type="radio" name="q3" id="q3-justin1" value="justin1">
+					<label for="q3-justin1">
+						<p>Strong-willed and passionate about what matters most.</p>
+					</label>
+
+					<input type="radio" name="q3" id="q3-justin5" value="justin5">
+					<label for="q3-justin5">
+						<p>A shared sense of humour.</p>
+					</label>
+
+					<input type="radio" name="q3" id="q3-justin2" value="justin2">
+					<label for="q3-justin2">
+						<p>A hot bod.</p>
+					</label>
+
+
+					<input type="radio" name="q3" id="q3-justin4" value="justin4">
+					<label for="q3-justin4">
+						<p>They have to have great hair.</p>
+					</label>
+
+			</div>
+				<!-- <button class="next">Next question</button> -->
+		</div> 
+			<!-- End question 3 -->
+			
+			<!-- Question 4 -->
+			<div class="question-container">
+				<h3>Question Four</h3>
+
+				<div class="inputWrapper">
+					<p>How would you describe your relationship with your father?</p>
+
+					<input type="radio" name="q4" id="q4-justin5" value="justin5">
+					<label for="q4-justin5">
+						<p>He’s great - I want to raise my kids the way he raised me.</p>
+					</label>
+
+					<input type="radio" name="q4" id="q4-justin2" value="justin2">
+					<label for="q4-justin2">
+						<p>He taught me how to throw a baseball and drove me to the hockey rink. He’s my best friend and drinking buddy.</p>
+					</label>
+
+					<input type="radio" name="q4" id="q4-justin1" value="justin1">
+					<label for="q4-justin1">
+						<p>He’s a little conservative. I dread dinner conversations.</p>
+					</label>
+
+					<input type="radio" name="q4" id="q4-justin4" value="justin4">
+					<label for="q4-justin4">
+						<p>They’re big shoes to fill, and I plan to outgrow them.</p>
+					</label>
+
+					<input type="radio" name="q4" id="q4-justin3" value="justin3">
+					<label for="q4-justin3">
+						<p>We don’t get along.</p>
+					</label>
+				</div>
+
+				<!-- <button class="next">Next question</button> -->
+			</div> 
+			<!-- End question 4 -->
+			
+			<!-- Question 5 -->
+			<div class="question-container">
+				<h3>Question Five</h3>
+					
+				<div class="inputWrapper">	
+					<p>What’s your favourite food?</p>
+
+					<input type="radio" name="q5" id="q5-justin4" value="justin4">
+					<label for="q5-justin4">
+						<p>Foie gras, filet mignon, and the fanciest poutine money can buy.</p>
+					</label>
+
+					<input type="radio" name="q5" id="q5-justin2" value="justin2">
+					<label for="q5-justin2">
+						<p>Doesn’t matter what it is, as long as it’s cheap!</p>
+					</label>
+
+					<input type="radio" name="q5" id="q5-justin1" value="justin1">
+					<label for="q5-justin1">
+						<p>Something locally sourced and sustainable.</p>
+					</label>
+
+					<input type="radio" name="q5" id="q5-justin3" value="justin3">
+					<label for="q5-justin3">
+						<p>Anything covered in hot sauce.</p>
+					</label>
+
+					<input type="radio" name="q5" id="q5-justin5" value="justin5">
+					<label for="q5-justin5">
+						<p>Takeout from this great spot in my neighbourhood.</p>
+					</label>
+				</div>
+
+				<!-- <button class="next">Next question</button> -->
+			</div> 
+			<!-- End question 5 -->
+
+			<!-- Question 6 -->
+			<div class="question-container">
+				<h3>Question Six</h3>
+
+				<div class="inputWrapper">
+					<p>Someone asks you an inappropriate and very personal question. How do you respond?</p>
+
+					<input type="radio" name="q6" id="q6-justin1" value="justin1">
+					<label for="q6-justin1">
+						<p>Answer the question, but let them know that it wasn’t cool to ask.</p>
+					</label>
+
+					<input type="radio" name="q6" id="q6-justin3" value="justin3">
+					<label for="q6-justin3">
+						<p>Challenge them to trial by combat.</p>
+					</label>
+
+					<input type="radio" name="q6" id="q6-justin2" value="justin2">
+					<label for="q6-justin2">
+						<p>Act tough, run away and tell your friends how you “totally kicked their ass”, and then cry when no one’s looking.</p>
+					</label>
+
+					<input type="radio" name="q6" id="q6-justin5" value="justin5">
+					<label for="q6-justin5">
+						<p>Make a joke about it and change the subject.</p>
+					</label>
+
+					<input type="radio" name="q6" id="q6-justin4" value="justin4">
+					<label for="q6-justin4">
+						<p>Come up with a carefully worded response that doesn’t make either of you feel bad when you leave the conversation.</p>
+					</label>
+
+				</div>
+			</div> 
+			<!-- End question 6 -->
+
+			<!-- Question 7 -->
+			<div class="question-container">
+				<h3>Question Seven</h3>
+
+				<div class="inputWrapper">
+					<p>What’s your favourite thing about Canada?</p>
+
+					<input type="radio" name="q7" id="q7-justin2" value="justin2">
+					<label for="q7-justin2">
+						<p>Good beer and hockey.</p>
+					</label>
+
+					<input type="radio" name="q7" id="q7-justin5" value="justin5">
+					<label for="q7-justin5">
+						<p>Friendly people, beautiful landscapes, wildlife - who doesn’t love moose?</p>
+					</label>
+					
+					<input type="radio" name="q7" id="q7-justin1" value="justin1">
+					<label for="q7-justin1">
+						<p>Multiculturalism, social support, and left-leaning policies.</p>
+					</label>
+
+					<input type="radio" name="q7" id="q7-justin4" value="justin4">
+					<label for="q7-justin4">
+						<p>Absolutely everything.</p>
+					</label>
+
+					<input type="radio" name="q7" id="q7-justin3" value="justin3">
+					<label for="q7-justin3">
+						<p>Weed’s going to be legal soon.</p>
+					</label>
+				</div>
+
+			</div> 
+			<!-- End question 7 -->
+
+			<!-- Question 8 -->
+			<div class="question-container">
+				<h3>Question Eight</h3>
+
+				<div class="inputWrapper">
+					<p>What do you wear on a first date?</p>
+
+					<input type="radio" name="q8" id="q8-justin4" value="justin4">
+					<label for="q8-justin4">
+						<p>Flashy and dressed to the nines - it’s important to make a good first impression.</p>
+					</label>
+
+					<input type="radio" name="q7" id="q8-justin3" value="justin3">
+					<label for="q8-justin3">
+						<p>Something that shows off my tattoos, likely leather.</p>
+					</label>
+					
+					<input type="radio" name="q8" id="q8-justin5" value="justin5">
+					<label for="q8-justin5">
+						<p>A nice t-shirt and jeans - it’s what I wear every other day!</p>
+					</label>
+
+					<input type="radio" name="q8" id="q8-justin1" value="justin1">
+					<label for="q8-justin1">
+						<p>This question is irrelevant. I’m not defined by my fashion choices.</p>
+					</label>
+
+					<input type="radio" name="q8" id="q8-justin2" value="justin2">
+					<label for="q8-justin2">
+						<p>Whatever’s clean, and a good spray of Axe (or whatever girls wear).</p>
+					</label>
+				</div>
+
+			</div> 
+			<!-- End question 8 -->
+
+
+		<input type="submit" class="submitButton hide" value="Submit answers">
+		</form>
+		<button class="next">Next question</button>
+
+	</section>
+	
+
+	<article class="answer feministJustin clearfix hide">
+		<h1>You got...</h1>
+		<div class="resultImageWrapper clearfix">
+			<img src="images/feministTrudeau.jpg" alt="Feminist Justin Trudeau. A picture of Justin Trudeau in deep thought with feminist symbols surroundhing him"/>
+			<p>To you, there’s nothing sexier than someone who stands up for what they believe in, even when it’s not the most popular opinion. That’s why Feminist Justin would be an equal match made in heaven for you. Justin’s arguments for women’s rights are as tight as his abs probably are. While he recognizes the importance of raising his daughters to be strong, independent women, he has publicly stated that it is just as important to raise sons to be active feminists as well. He doesn’t shy away from using the word, stating that “men and women should be free to call themselves feminists whenever they want”. That kind of bold self-assurance and commitment to principles jives well with your left-leaning ideologies, and your spirited debates would last alllll niiight looooong.</p>
+			<p>Plus, you know he would always have your back in debates over gender equality with his conservative Parliament pals. Why? “Because it’s 2015” (adjust year accordingly).</p>
+			<button class="reset">Get a Different Justin</button>
+		</div>
+	</article>
+
+	<article class="answer fratBoyJustin clearfix hide">
+		<h1>You got...</h1>
+		<div class="resultImageWrapper clearfix">
+			<img src="images/fratboyjustin.jpg" alt="Frat Boy Justin Trudeau. Justin Trudeau cheering in a hockey jersey, eating snacks with a bud">
+		
+			<p>You don't get to be Prime Minister without a bit of a competitive streak and an unhealthy dose of confidence. His hot-headedness will keep you on your toes whether you're facing off on the ice OR between the sheets. He loves a good time and always has a party trick up his sleeve - if you consider falling down a flight of stairs a party trick. He can't cook anything more complicated than Kraft Dinner and you'll spend a lot of time surrounded by dirty laundry, but at the end of the day there's never a dull moment with Frat Boy Justin.</p>
+			<button class="reset">Get a Different Justin</button>
+		</div>
+	</article>
+
+	<article class="answer badBoyJustin clearfix hide">
+		<h1>You got...</h1>
+		<div class="resultImageWrapper clearfix">
+			<img src="images/badboyjustin.jpg" alt="Bad Boy Justin Trudeau. Justin Trudeau shirtless, holding up fists in a boxing stance">
+		
+			<p>Tough, dreamy, and out of control, Bad Boy Justin never backs down from a fight. In a boxing match organized by their mutual hairdresser, Justin went toe to toe with conservative senator Patrick Brazeau, for no real reason other than to prove that he could clean up both on AND off the senate floor. He’s had a puff or two of Mary Jane, and makes no apologies - and soon, no one else will have to either, now that he’s pushing to legalize marijuana in Canada. Just like you, he’s a fearless, adventurous spirit, who’s not afraid to bend the rules now and then. You’ll have a blast painting the town red for the rest of your lives together… in Ottawa.</p>
+		<button class="reset">Get a Different Justin</button>
+		</div>
+	</article>
+
+	<article class="answer rockstarJustin clearfix hide">
+		<h1>You got...</h1>
+		<div class="resultImageWrapper">
+			<img src="images/rockstarJustin.jpg" alt="Rock Star Justin Trudeau. Justin Trudeau wearing sunglasses, sitting on top of a Mercedes"/>
+			<p>When Justin Trudeau got elected as Prime Minister, the whole world went crazy... and so did you!!! You've never shied away from the limelight, and love the kind of glamorous, high profile lifestyle Rockstar Justin could give you. You'd have no qualms about posing for selfies with thousands of Justin's adoring fans at the next G20 summit, and living with a full service staff at 21 Sussex wouldn't be bad either. You'd have no fears introducing Rockstar Justin to your parents - he's a smooth talker who always knows exactly what to say, and when to say it. With Rockstar Justin, the world's a stage, and you love to be the star.</p>
+		<button class="reset">Get a Different Justin</button>
+		</div>
+	</article>
+
+	<article class="answer relatableJustin hide clearfix">
+		<h1>You got...</h1>
+		<div class="resultImageWrapper clearfix">
+			<img src="images/relatablejustin.jpg" alt="Relatable Justin Trudeau. Justin Trudeau dressed as Han Solo, trick or treating with his wife and kids">
+		
+			<p>Sure he’s the Prime Minister of Canada, and his dream-boat status means there are cameras following him everywhere, but Justin Trudeau doesn’t let it go to his head. After a long day of high-profile speeches and document-signing, you and Relatable Justin can wind down and put on a movie at 21 Sussex or take a stroll to warm your hands at the Eternal Flame at Parliament, sharing a Beavertail. You love Justin’s easy-going, family-man side. He’s not afraid to get goofy and dress up with the kids on Halloween. He may be Canada's golden boy, but you’re the only one who sees how goddamn average he is underneath it all.</p>
+			<button class="reset">Get a Different Justin</button>
+		</div>
+
+	</article>
+
+	<article class="answer oops hide clearfix">
+		<h1>You got... </h1>
+		<div class="resultImageWrapper clearfix">
+			<img src= "images/evilJustin.png" alt= "Evil Justin. A picture of Justins face with a goatee and a stick figure body wearing a cape"/>
+		
+			<p>You didn't complete the quiz! You get Evil Justin... ew :( </p>
+			<button class="reset">Get a Different Justin</button>
+		</div>
+
+	</article>
+		
+
+</main>
+
+<footer>
+	<p> Coded and Created by <a href="http://jessroycroft.com/">Jess Roycroft</a>, <a href="http://colinmccullo.ca">Colin McCullough</a> and <a href="http://meaghaneleanor.com/">Meaghan Eleanor</a> © 2016 </p>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

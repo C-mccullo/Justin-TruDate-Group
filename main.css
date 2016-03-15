@@ -1,0 +1,501 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex: row wrap;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+body {
+  background: #e8d3d3;
+  padding: 2rem 5rem;
+}
+
+section {
+  background: #fcfcfc;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #e38061;
+  font-size: 10rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 3.5rem;
+  color: #23231A;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+}
+
+h3, p {
+  font-family: 'Roboto', sans-serif;
+  color: #23231A;
+  font-size: 20px;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+
+a {
+  text-decoration: none;
+  color: #23231A;
+}
+
+a:hover {
+  color: #e38061;
+}
+
+.answer {
+  border-radius: 10px;
+  padding: 20px;
+  background: #fcfcfc;
+}
+
+.answer h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+.resultImageWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.resultImageWrapper img {
+  display: block;
+  width: 80%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.resultImageWrapper p {
+  padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 28px;
+}
+
+.landingPage {
+  align-items: center;
+}
+
+.landingPage h1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.imageWrapper {
+  min-width: 100px;
+  width: 70vw;
+  max-width: 400px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  padding-bottom: 20px;
+  transform: rotate(-5deg);
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button, .submitButton {
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  border: none;
+  background: #5da949;
+  color: #fcfcfc;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  outline: none;
+}
+
+.submitButton {
+  width: 100%;
+}
+
+button.reset {
+  width: 100%;
+}
+
+header h1 {
+  font-size: 7rem;
+  padding-top: 0;
+  margin: 0;
+}
+
+header .imageWrapper {
+  width: 40vw;
+  max-width: 275px;
+  position: relative;
+  top: 28px;
+  left: 40px;
+  transform: rotate(-5deg);
+  padding: 0;
+}
+
+header .imageWrapper img {
+  width: 100%;
+}
+
+label p {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #e38061;
+  width: 80%;
+}
+
+label p:hover {
+  cursor: pointer;
+}
+
+:checked + label p {
+  background: #e38061;
+  color: white;
+}
+
+section {
+  padding: 45px;
+}
+
+section.form-container {
+  width: 100%;
+  margin: auto;
+}
+
+section.form-container .question-container {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+section.form-container .question-container h3 {
+  font-size: 60px;
+  font-size: 6.0rem;
+  margin: 0;
+  text-align: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-transform: uppercase;
+  color: #e38061;
+  letter-spacing: 5px;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+}
+
+div.inputWrapper {
+  margin: 0 auto;
+}
+
+div.inputWrapper p {
+  font-size: 34px;
+  font-size: 3.4rem;
+}
+
+div.inputWrapper label p {
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+#evilJustin {
+  width: 30%;
+}
+
+@media (max-width: 650px) {
+  body {
+    padding: 15px;
+  }
+  p {
+    font-size: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+  }
+  section {
+    padding: 5%;
+  }
+  section.form-container form {
+    width: 90%;
+    padding-top: 40px;
+  }
+  .landingPage h1 {
+    font-size: 7rem;
+  }
+  .main-quiz header h1 {
+    font-size: 6rem;
+  }
+  section.form-container .question-container {
+    padding-bottom: 15px;
+  }
+  section.form-container .question-container h3 {
+    font-size: 5rem;
+  }
+  section.form-container .question-container p {
+    font-size: 2.5rem;
+  }
+  section.form-container .question-container label p {
+    font-size: 2rem;
+  }
+  button, .submitButton {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .landingPage h1 {
+    font-size: 50px;
+    font-size: 5rem;
+  }
+  .landingPage h2 {
+    font-size: 25px;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 20px;
+  }
+  p {
+    font-size: 12px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  .landingPage h1 {
+    font-size: 40px;
+    font-size: 4rem;
+  }
+  button, .submitButton {
+    font-size: 25px;
+    font-size: 2.5rem;
+  }
+  .submitButton {
+    padding: 20px 10px;
+    word-spacing: 1.2px;
+  }
+  section.form-container .question-container {
+    padding-bottom: 15px;
+  }
+  section.form-container .question-container h3 {
+    font-size: 5rem;
+  }
+  section.form-container .question-container p {
+    font-size: 2.5rem;
+  }
+  section.form-container .question-container label p {
+    font-size: 15px;
+    font-size: 1.5rem;
+  }
+  .resultImageWrapper {
+    width: 100%;
+  }
+}
