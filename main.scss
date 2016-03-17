@@ -102,4 +102,45 @@
 	}
 }
 
+//Results page
+@media (max-width: 1130px) {
+	.resultImageWrapper p {
+		font-size: 1.4rem;
+	}
+}
 
+@media (max-width: 970px) {
+	.resultImageWrapper {
+		flex-direction: column;
+		width: 100%;
+		div.resultImage {
+			width: 70%;
+			max-width: 700px;
+			margin: 0 auto;
+		}
+		p {
+			padding: 2rem;
+			width: 70%;
+			font-size: 1.7rem;
+			margin: 0 auto;
+			max-width: 700px;
+		}
+	}
+} 
+
+@media (max-width: 750px) {
+	.resultImageWrapper p {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.answer h1 {
+		font-size: 5rem;
+	}
+	.resultImageWrapper p {
+		width: 100%;
+		padding: 2rem 0;
+		font-size: 1rem;
+	}
+}

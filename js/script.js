@@ -63,7 +63,7 @@ $(function() {
       e.preventDefault();
       console.log("it worked!");
 
-      for (question = 1; question < 8; question++) {
+      for (question = 1; question < 6; question++) {
           // Increments input name 
       var q = document.forms["quiz"].elements["q" + question];
     	    for (var i = 0; i < q.length; i++) {
