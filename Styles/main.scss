@@ -7,7 +7,47 @@
 @import "partials/mainQuiz";
 
 
-// Landing Page
+
+
+//Results page
+@media (max-width: 1130px) {
+	.resultText p {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 970px) {
+	.resultImageWrapper {
+		flex-direction: column;
+		width: 100%;
+		div.resultImage {
+			width: 70%;
+			max-width: 700px;
+			margin: 0 auto;
+		}
+		p {
+			padding: 2rem;
+			width: 70%;
+			font-size: 1.7rem;
+			margin: 0 auto;
+			max-width: 700px;
+		}
+	}
+} 
+
+@media (max-width: 770px) {
+	.resultImageWrapper p {
+		font-size: 1.3rem;
+	}
+	.landingPage h1 {
+		font-size: 60px;
+		font-size: 6rem;
+	}
+	.main-quiz header h1 {
+		font-size: 50px;
+		font-size: 5rem;
+	}
+}
 
 @media (max-width: 650px) {
 	body {
@@ -26,26 +66,35 @@
 		padding-top: 40px;
 	}
 
-	.landingPage h1 {
-		font-size: 7rem;
-	}
-	.main-quiz header h1 {
-		font-size: 6rem;
-	}
 	section.form-container .question-container {
 		padding-bottom: 15px;
 		h3 {
+			font-size: 50px;
 		font-size: 5rem;
 		}
 	}
 	section.form-container .question-container p {
+		font-size: 25px;
 		font-size: 2.5rem;
 	}
 	section.form-container .question-container label p {
+		font-size: 20px;
 		font-size: 2rem;
 	}
 	button, .submitButton {
+		font-size: 30px;
 		font-size: 3rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.answer h1 {
+		font-size: 5rem;
+	}
+	.resultImageWrapper p {
+		width: 100%;
+		padding: 2rem 0;
+		font-size: 1rem;
 	}
 }
 
@@ -102,45 +151,6 @@
 	}
 }
 
-//Results page
-@media (max-width: 1130px) {
-	.resultImageWrapper p {
-		font-size: 1.4rem;
-	}
-}
 
-@media (max-width: 970px) {
-	.resultImageWrapper {
-		flex-direction: column;
-		width: 100%;
-		div.resultImage {
-			width: 70%;
-			max-width: 700px;
-			margin: 0 auto;
-		}
-		p {
-			padding: 2rem;
-			width: 70%;
-			font-size: 1.7rem;
-			margin: 0 auto;
-			max-width: 700px;
-		}
-	}
-} 
 
-@media (max-width: 750px) {
-	.resultImageWrapper p {
-		font-size: 1.3rem;
-	}
-}
 
-@media (max-width: 480px) {
-	.answer h1 {
-		font-size: 5rem;
-	}
-	.resultImageWrapper p {
-		width: 100%;
-		padding: 2rem 0;
-		font-size: 1rem;
-	}
-}

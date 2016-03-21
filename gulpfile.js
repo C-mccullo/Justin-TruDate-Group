@@ -18,7 +18,7 @@ gulp.task('bs', function() {
 });
 
 gulp.task('styles', function() {
-	return gulp.src('./styles/**/*.scss')
+	return gulp.src('./Styles/**/*.scss')
 		.pipe(plumber({
 		  errorHandler: notify.onError("Error: <%= error.message %>")
 		}))
