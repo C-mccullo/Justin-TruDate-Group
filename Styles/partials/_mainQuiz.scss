@@ -8,9 +8,10 @@ header {
 		width: 40vw;
 		max-width: 275px;
 		position: relative;
-		top: 28px;
-		left: 40px;
-		transform: rotate(-5deg);
+		top: 10px;
+		left: 50%;
+		transform: rotate(-10deg);
+		transform: translate(-50%);
 		padding: 0;
 		img {
 			width: 100%;

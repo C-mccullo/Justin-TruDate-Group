@@ -41,20 +41,19 @@ $(function() {
 
         }
         else {
-
-              $($question.get(currentQuestion)).fadeIn();
-              ;
-              // console.log("nextQuestion");
+          $($question.get(currentQuestion)).fadeIn();           
         }
+
       }); // End of fade-in/fade-out function     
 
     }); // End of next button callback function
   
-    $('input').on('click', function() {
+    // $('input').on('click', function() {
         
-        console.log($(this).val());
+    //     console.log($(this).val());
 
-    });
+    // });
+    
     $("button.reset").on("click", function() {
       location.reload();
     });
