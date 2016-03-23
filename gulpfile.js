@@ -51,9 +51,9 @@ gulp.task('images', function () {
 
 // configure which files to watch and what tasks to use on file changes
 gulp.task('watch', function() {
-	gulp.watch('sass/**/*.scss', ['styles']);
+	gulp.watch('Styles/**/*.scss', ['styles']);
 	gulp.watch('./js/**/*.js', ['scripts']);
-	gulp.watch('./**/*.php', reload);
+	gulp.watch('./**/*.html', reload);
 });
 
 gulp.task('default', ['styles', 'scripts', 'images', 'bs', 'watch']);
